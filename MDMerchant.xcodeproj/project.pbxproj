@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1850233B1F373C9100C3470E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850233A1F373C9100C3470E /* main.m */; };
+		1850233E1F373C9100C3470E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850233D1F373C9100C3470E /* AppDelegate.m */; };
+		185023411F373C9100C3470E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023401F373C9100C3470E /* ViewController.m */; };
+		185023441F373C9100C3470E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185023421F373C9100C3470E /* Main.storyboard */; };
+		185023461F373C9100C3470E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185023451F373C9100C3470E /* Assets.xcassets */; };
+		185023491F373C9100C3470E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185023471F373C9100C3470E /* LaunchScreen.storyboard */; };
+		185023541F373C9100C3470E /* MDMerchantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023531F373C9100C3470E /* MDMerchantTests.m */; };
+		1850235F1F373C9100C3470E /* MDMerchantUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850235E1F373C9100C3470E /* MDMerchantUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185023501F373C9100C3470E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1850232E1F373C9100C3470E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185023351F373C9100C3470E;
+			remoteInfo = MDMerchant;
+		};
+		1850235B1F373C9100C3470E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1850232E1F373C9100C3470E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185023351F373C9100C3470E;
+			remoteInfo = MDMerchant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185023361F373C9100C3470E /* MDMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1850233A1F373C9100C3470E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1850233C1F373C9100C3470E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1850233D1F373C9100C3470E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1850233F1F373C9100C3470E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		185023401F373C9100C3470E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		185023431F373C9100C3470E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185023451F373C9100C3470E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185023481F373C9100C3470E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1850234A1F373C9100C3470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1850234F1F373C9100C3470E /* MDMerchantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDMerchantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185023531F373C9100C3470E /* MDMerchantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMerchantTests.m; sourceTree = "<group>"; };
+		185023551F373C9100C3470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1850235A1F373C9100C3470E /* MDMerchantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDMerchantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1850235E1F373C9100C3470E /* MDMerchantUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMerchantUITests.m; sourceTree = "<group>"; };
+		185023601F373C9100C3470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185023331F373C9100C3470E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1850234C1F373C9100C3470E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185023571F373C9100C3470E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1850232D1F373C9100C3470E = {
+			isa = PBXGroup;
+			children = (
+				185023381F373C9100C3470E /* MDMerchant */,
+				185023521F373C9100C3470E /* MDMerchantTests */,
+				1850235D1F373C9100C3470E /* MDMerchantUITests */,
+				185023371F373C9100C3470E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185023371F373C9100C3470E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185023361F373C9100C3470E /* MDMerchant.app */,
+				1850234F1F373C9100C3470E /* MDMerchantTests.xctest */,
+				1850235A1F373C9100C3470E /* MDMerchantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185023381F373C9100C3470E /* MDMerchant */ = {
+			isa = PBXGroup;
+			children = (
+				1850233C1F373C9100C3470E /* AppDelegate.h */,
+				1850233D1F373C9100C3470E /* AppDelegate.m */,
+				1850233F1F373C9100C3470E /* ViewController.h */,
+				185023401F373C9100C3470E /* ViewController.m */,
+				185023421F373C9100C3470E /* Main.storyboard */,
+				185023451F373C9100C3470E /* Assets.xcassets */,
+				185023471F373C9100C3470E /* LaunchScreen.storyboard */,
+				1850234A1F373C9100C3470E /* Info.plist */,
+				185023391F373C9100C3470E /* Supporting Files */,
+			);
+			path = MDMerchant;
+			sourceTree = "<group>";
+		};
+		185023391F373C9100C3470E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1850233A1F373C9100C3470E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185023521F373C9100C3470E /* MDMerchantTests */ = {
+			isa = PBXGroup;
+			children = (
+				185023531F373C9100C3470E /* MDMerchantTests.m */,
+				185023551F373C9100C3470E /* Info.plist */,
+			);
+			path = MDMerchantTests;
+			sourceTree = "<group>";
+		};
+		1850235D1F373C9100C3470E /* MDMerchantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1850235E1F373C9100C3470E /* MDMerchantUITests.m */,
+				185023601F373C9100C3470E /* Info.plist */,
+			);
+			path = MDMerchantUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185023351F373C9100C3470E /* MDMerchant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185023631F373C9100C3470E /* Build configuration list for PBXNativeTarget "MDMerchant" */;
+			buildPhases = (
+				185023321F373C9100C3470E /* Sources */,
+				185023331F373C9100C3470E /* Frameworks */,
+				185023341F373C9100C3470E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDMerchant;
+			productName = MDMerchant;
+			productReference = 185023361F373C9100C3470E /* MDMerchant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1850234E1F373C9100C3470E /* MDMerchantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185023661F373C9100C3470E /* Build configuration list for PBXNativeTarget "MDMerchantTests" */;
+			buildPhases = (
+				1850234B1F373C9100C3470E /* Sources */,
+				1850234C1F373C9100C3470E /* Frameworks */,
+				1850234D1F373C9100C3470E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185023511F373C9100C3470E /* PBXTargetDependency */,
+			);
+			name = MDMerchantTests;
+			productName = MDMerchantTests;
+			productReference = 1850234F1F373C9100C3470E /* MDMerchantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		185023591F373C9100C3470E /* MDMerchantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185023691F373C9100C3470E /* Build configuration list for PBXNativeTarget "MDMerchantUITests" */;
+			buildPhases = (
+				185023561F373C9100C3470E /* Sources */,
+				185023571F373C9100C3470E /* Frameworks */,
+				185023581F373C9100C3470E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1850235C1F373C9100C3470E /* PBXTargetDependency */,
+			);
+			name = MDMerchantUITests;
+			productName = MDMerchantUITests;
+			productReference = 1850235A1F373C9100C3470E /* MDMerchantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1850232E1F373C9100C3470E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Wuxi Kaishang Internet";
+				TargetAttributes = {
+					185023351F373C9100C3470E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WZM92B4X3U;
+						ProvisioningStyle = Automatic;
+					};
+					1850234E1F373C9100C3470E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WZM92B4X3U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185023351F373C9100C3470E;
+					};
+					185023591F373C9100C3470E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WZM92B4X3U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185023351F373C9100C3470E;
+					};
+				};
+			};
+			buildConfigurationList = 185023311F373C9100C3470E /* Build configuration list for PBXProject "MDMerchant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1850232D1F373C9100C3470E;
+			productRefGroup = 185023371F373C9100C3470E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185023351F373C9100C3470E /* MDMerchant */,
+				1850234E1F373C9100C3470E /* MDMerchantTests */,
+				185023591F373C9100C3470E /* MDMerchantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185023341F373C9100C3470E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185023491F373C9100C3470E /* LaunchScreen.storyboard in Resources */,
+				185023461F373C9100C3470E /* Assets.xcassets in Resources */,
+				185023441F373C9100C3470E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1850234D1F373C9100C3470E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185023581F373C9100C3470E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185023321F373C9100C3470E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185023411F373C9100C3470E /* ViewController.m in Sources */,
+				1850233E1F373C9100C3470E /* AppDelegate.m in Sources */,
+				1850233B1F373C9100C3470E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1850234B1F373C9100C3470E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185023541F373C9100C3470E /* MDMerchantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185023561F373C9100C3470E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1850235F1F373C9100C3470E /* MDMerchantUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185023511F373C9100C3470E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185023351F373C9100C3470E /* MDMerchant */;
+			targetProxy = 185023501F373C9100C3470E /* PBXContainerItemProxy */;
+		};
+		1850235C1F373C9100C3470E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185023351F373C9100C3470E /* MDMerchant */;
+			targetProxy = 1850235B1F373C9100C3470E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185023421F373C9100C3470E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185023431F373C9100C3470E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185023471F373C9100C3470E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185023481F373C9100C3470E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185023611F373C9100C3470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185023621F373C9100C3470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185023641F373C9100C3470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WZM92B4X3U;
+				INFOPLIST_FILE = MDMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.merchant.MDMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		185023651F373C9100C3470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WZM92B4X3U;
+				INFOPLIST_FILE = MDMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.merchant.MDMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		185023671F373C9100C3470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WZM92B4X3U;
+				INFOPLIST_FILE = MDMerchantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.merchant.MDMerchantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDMerchant.app/MDMerchant";
+			};
+			name = Debug;
+		};
+		185023681F373C9100C3470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WZM92B4X3U;
+				INFOPLIST_FILE = MDMerchantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.merchant.MDMerchantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDMerchant.app/MDMerchant";
+			};
+			name = Release;
+		};
+		1850236A1F373C9100C3470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WZM92B4X3U;
+				INFOPLIST_FILE = MDMerchantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.merchant.MDMerchantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MDMerchant;
+			};
+			name = Debug;
+		};
+		1850236B1F373C9100C3470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WZM92B4X3U;
+				INFOPLIST_FILE = MDMerchantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.merchant.MDMerchantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MDMerchant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185023311F373C9100C3470E /* Build configuration list for PBXProject "MDMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185023611F373C9100C3470E /* Debug */,
+				185023621F373C9100C3470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185023631F373C9100C3470E /* Build configuration list for PBXNativeTarget "MDMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185023641F373C9100C3470E /* Debug */,
+				185023651F373C9100C3470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		185023661F373C9100C3470E /* Build configuration list for PBXNativeTarget "MDMerchantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185023671F373C9100C3470E /* Debug */,
+				185023681F373C9100C3470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		185023691F373C9100C3470E /* Build configuration list for PBXNativeTarget "MDMerchantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1850236A1F373C9100C3470E /* Debug */,
+				1850236B1F373C9100C3470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1850232E1F373C9100C3470E /* Project object */;
+}
