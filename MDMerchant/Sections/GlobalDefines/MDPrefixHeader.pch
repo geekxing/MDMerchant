@@ -1,0 +1,77 @@
+//
+//  MDPrefixHeader.pch
+//  MDMerchant
+//
+//  Created by apple on 2017/8/6.
+//  Copyright © 2017年 Wuxi Kaishang Internet. All rights reserved.
+//
+
+#ifndef MDPrefixHeader_pch
+#define MDPrefixHeader_pch
+
+#import "MDNetworkTool.h"
+#import "UIView+MDAdd.h"
+#import "UIImage+MDAdd.h"
+#import "UIButton+MDAdd.h"
+#import "MDSearchBar.h"
+#import "UIBarButtonItem+MDAdd.h"
+#import <UIImageView+WebCache.h>
+#import <SVProgressHUD.h>
+
+
+/** -------------------------------------------------- */
+#define MDWS __weak typeof(self) wself = self;
+#define MDStrongSelf __strong typeof(self) strongSelf = wself;
+
+#define UIScreenScale [UIScreen mainScreen].scale
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define StatusBarHeight (([[UIApplication sharedApplication] statusBarFrame].size.height == 20.0f) ? 20.0f : 40.0f)
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define WINDOW_HEIGHT (StatusBarHeight < 40 ? SCREEN_HEIGHT : SCREEN_HEIGHT-20)
+
+#define UIWidthRatio(w) roundf((w)/414.f*SCREEN_WIDTH)
+#define UIHeightRatio(h) roundf((h)/736.f*SCREEN_HEIGHT)
+#define UIScreenSize CGSizeMake(SCREEN_WIDTH,SCREEN_HEIGHT)
+
+#ifndef kSystemVersion
+#define kSystemVersion [UIDevice systemVersion]
+#endif
+
+#define XSX_KEYWINDOW [UIApplication sharedApplication].keyWindow
+
+/*** UI宏 */
+#define UIFontMakeS(f) [UIFont systemFontOfSize:(f)]
+#define UIFontMakeB(f) [UIFont boldSystemFontOfSize:(f)]
+#define UIFontMake(f) [UIFont systemFontOfSize:UIWidthRatio(f)]
+
+#pragma mark - UIColor宏定义
+
+#define UIColorFromRGBA(rgbValue, alphaValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0x0000FF))/255.0 \
+alpha:alphaValue]
+
+#define UIColorFromRGB(rgbValue) UIColorFromRGBA(rgbValue, 1.0)
+
+#define MDOpaqueColor(r, g, b) MDColor(r, g, b, 1.0)
+
+#define MDColor(r, g, b, a) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:(a)]
+
+#define MDRandomColor MDColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255), 1)
+
+#define MDThemeYellow MDOpaqueColor(247, 209, 39)
+
+#define MDDefaultBgColor MDOpaqueColor(232, 234, 235)
+
+#pragma mark - Log
+
+/***日志***/
+#ifdef DEBUG
+#define MDXLog(...) NSLog(__VA_ARGS__)
+#else
+#define MDXLog(...)
+
+#endif
+
+#endif /* MDPrefixHeader_pch */

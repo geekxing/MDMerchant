@@ -9,12 +9,35 @@
 /* Begin PBXBuildFile section */
 		1850233B1F373C9100C3470E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850233A1F373C9100C3470E /* main.m */; };
 		1850233E1F373C9100C3470E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850233D1F373C9100C3470E /* AppDelegate.m */; };
-		185023411F373C9100C3470E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023401F373C9100C3470E /* ViewController.m */; };
-		185023441F373C9100C3470E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185023421F373C9100C3470E /* Main.storyboard */; };
 		185023461F373C9100C3470E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185023451F373C9100C3470E /* Assets.xcassets */; };
 		185023491F373C9100C3470E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185023471F373C9100C3470E /* LaunchScreen.storyboard */; };
 		185023541F373C9100C3470E /* MDMerchantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023531F373C9100C3470E /* MDMerchantTests.m */; };
 		1850235F1F373C9100C3470E /* MDMerchantUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850235E1F373C9100C3470E /* MDMerchantUITests.m */; };
+		1850237B1F373F8400C3470E /* MDRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023781F373F8400C3470E /* MDRegisterViewController.m */; };
+		1850237E1F37433000C3470E /* MDRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850237D1F37433000C3470E /* MDRegisterView.m */; };
+		185023841F3745DB00C3470E /* MDNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023831F3745DB00C3470E /* MDNetworkTool.m */; };
+		185023871F37473100C3470E /* MDRoundCornerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023861F37473100C3470E /* MDRoundCornerTextField.m */; };
+		1850238B1F374C1A00C3470E /* UIView+MDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850238A1F374C1A00C3470E /* UIView+MDAdd.m */; };
+		1850238E1F3754E100C3470E /* NSArray+MDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850238D1F3754E100C3470E /* NSArray+MDAdd.m */; };
+		185023931F37581C00C3470E /* MDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023921F37581C00C3470E /* MDTabBarController.m */; };
+		185023961F3758ED00C3470E /* MDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023951F3758ED00C3470E /* MDNavigationController.m */; };
+		185023991F3759B900C3470E /* UIImage+MDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023981F3759B900C3470E /* UIImage+MDAdd.m */; };
+		185023A01F38113100C3470E /* MDTabOneContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850239F1F38113100C3470E /* MDTabOneContainerViewController.m */; };
+		185023A71F3812B900C3470E /* MDTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023A61F3812B900C3470E /* MDTitleView.m */; };
+		185023AA1F38152600C3470E /* MDNewOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023A91F38152600C3470E /* MDNewOrderViewController.m */; };
+		185023AD1F3815C400C3470E /* MDRefundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023AC1F3815C400C3470E /* MDRefundViewController.m */; };
+		185023B01F38160900C3470E /* MDCompensateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023AF1F38160900C3470E /* MDCompensateViewController.m */; };
+		185023B31F3836EF00C3470E /* MDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023B21F3836EF00C3470E /* MDBaseViewController.m */; };
+		185023B61F3838B700C3470E /* UIButton+MDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023B51F3838B700C3470E /* UIButton+MDAdd.m */; };
+		185023B91F3838C700C3470E /* UIBarButtonItem+MDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023B81F3838C700C3470E /* UIBarButtonItem+MDAdd.m */; };
+		185023BC1F38414F00C3470E /* MDScrollPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023BB1F38414F00C3470E /* MDScrollPageViewController.m */; };
+		185023C31F3845BA00C3470E /* MDTabTwoContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023C21F3845BA00C3470E /* MDTabTwoContainerViewController.m */; };
+		18ADA2021F3EE4BF00766DA0 /* MDOrderManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA2011F3EE4BF00766DA0 /* MDOrderManageViewController.m */; };
+		18F9E74E1F3EEA7200D417AB /* MDOrderManageTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9E74D1F3EEA7200D417AB /* MDOrderManageTableCell.m */; };
+		18F9E7511F3EEABC00D417AB /* MDOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9E7501F3EEABC00D417AB /* MDOrder.m */; };
+		18F9E7541F3EF12100D417AB /* MDGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9E7531F3EF12100D417AB /* MDGoods.m */; };
+		18F9E75D1F3EF73800D417AB /* MDSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9E75C1F3EF73800D417AB /* MDSearchBar.m */; };
+		49BDCB64B1FFA09627ACC90E /* libPods-MDMerchant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D57217F6DE03B4C012F8A48 /* libPods-MDMerchant.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +62,6 @@
 		1850233A1F373C9100C3470E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1850233C1F373C9100C3470E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1850233D1F373C9100C3470E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1850233F1F373C9100C3470E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		185023401F373C9100C3470E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		185023431F373C9100C3470E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		185023451F373C9100C3470E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185023481F373C9100C3470E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1850234A1F373C9100C3470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +71,58 @@
 		1850235A1F373C9100C3470E /* MDMerchantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDMerchantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1850235E1F373C9100C3470E /* MDMerchantUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMerchantUITests.m; sourceTree = "<group>"; };
 		185023601F373C9100C3470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185023771F373F8400C3470E /* MDRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRegisterViewController.h; sourceTree = "<group>"; };
+		185023781F373F8400C3470E /* MDRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRegisterViewController.m; sourceTree = "<group>"; };
+		1850237C1F37433000C3470E /* MDRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRegisterView.h; sourceTree = "<group>"; };
+		1850237D1F37433000C3470E /* MDRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRegisterView.m; sourceTree = "<group>"; };
+		185023801F3743C700C3470E /* MDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDPrefixHeader.pch; sourceTree = "<group>"; };
+		185023821F3745DB00C3470E /* MDNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDNetworkTool.h; sourceTree = "<group>"; };
+		185023831F3745DB00C3470E /* MDNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDNetworkTool.m; sourceTree = "<group>"; };
+		185023851F37473100C3470E /* MDRoundCornerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRoundCornerTextField.h; sourceTree = "<group>"; };
+		185023861F37473100C3470E /* MDRoundCornerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRoundCornerTextField.m; sourceTree = "<group>"; };
+		185023891F374C1A00C3470E /* UIView+MDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDAdd.h"; sourceTree = "<group>"; };
+		1850238A1F374C1A00C3470E /* UIView+MDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDAdd.m"; sourceTree = "<group>"; };
+		1850238C1F3754E100C3470E /* NSArray+MDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MDAdd.h"; sourceTree = "<group>"; };
+		1850238D1F3754E100C3470E /* NSArray+MDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MDAdd.m"; sourceTree = "<group>"; };
+		185023911F37581C00C3470E /* MDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTabBarController.h; sourceTree = "<group>"; };
+		185023921F37581C00C3470E /* MDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTabBarController.m; sourceTree = "<group>"; };
+		185023941F3758ED00C3470E /* MDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDNavigationController.h; sourceTree = "<group>"; };
+		185023951F3758ED00C3470E /* MDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDNavigationController.m; sourceTree = "<group>"; };
+		185023971F3759B900C3470E /* UIImage+MDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MDAdd.h"; sourceTree = "<group>"; };
+		185023981F3759B900C3470E /* UIImage+MDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MDAdd.m"; sourceTree = "<group>"; };
+		1850239E1F38113100C3470E /* MDTabOneContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTabOneContainerViewController.h; sourceTree = "<group>"; };
+		1850239F1F38113100C3470E /* MDTabOneContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTabOneContainerViewController.m; sourceTree = "<group>"; };
+		185023A51F3812B900C3470E /* MDTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTitleView.h; sourceTree = "<group>"; };
+		185023A61F3812B900C3470E /* MDTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTitleView.m; sourceTree = "<group>"; };
+		185023A81F38152600C3470E /* MDNewOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDNewOrderViewController.h; sourceTree = "<group>"; };
+		185023A91F38152600C3470E /* MDNewOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDNewOrderViewController.m; sourceTree = "<group>"; };
+		185023AB1F3815C400C3470E /* MDRefundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRefundViewController.h; sourceTree = "<group>"; };
+		185023AC1F3815C400C3470E /* MDRefundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRefundViewController.m; sourceTree = "<group>"; };
+		185023AE1F38160900C3470E /* MDCompensateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCompensateViewController.h; sourceTree = "<group>"; };
+		185023AF1F38160900C3470E /* MDCompensateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCompensateViewController.m; sourceTree = "<group>"; };
+		185023B11F3836EF00C3470E /* MDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDBaseViewController.h; sourceTree = "<group>"; };
+		185023B21F3836EF00C3470E /* MDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDBaseViewController.m; sourceTree = "<group>"; };
+		185023B41F3838B700C3470E /* UIButton+MDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MDAdd.h"; sourceTree = "<group>"; };
+		185023B51F3838B700C3470E /* UIButton+MDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MDAdd.m"; sourceTree = "<group>"; };
+		185023B71F3838C700C3470E /* UIBarButtonItem+MDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MDAdd.h"; sourceTree = "<group>"; };
+		185023B81F3838C700C3470E /* UIBarButtonItem+MDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MDAdd.m"; sourceTree = "<group>"; };
+		185023BA1F38414F00C3470E /* MDScrollPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDScrollPageViewController.h; sourceTree = "<group>"; };
+		185023BB1F38414F00C3470E /* MDScrollPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDScrollPageViewController.m; sourceTree = "<group>"; };
+		185023C11F3845BA00C3470E /* MDTabTwoContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTabTwoContainerViewController.h; sourceTree = "<group>"; };
+		185023C21F3845BA00C3470E /* MDTabTwoContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTabTwoContainerViewController.m; sourceTree = "<group>"; };
+		18ADA2001F3EE4BF00766DA0 /* MDOrderManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDOrderManageViewController.h; sourceTree = "<group>"; };
+		18ADA2011F3EE4BF00766DA0 /* MDOrderManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDOrderManageViewController.m; sourceTree = "<group>"; };
+		18F9E74C1F3EEA7200D417AB /* MDOrderManageTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDOrderManageTableCell.h; sourceTree = "<group>"; };
+		18F9E74D1F3EEA7200D417AB /* MDOrderManageTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDOrderManageTableCell.m; sourceTree = "<group>"; };
+		18F9E74F1F3EEABC00D417AB /* MDOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDOrder.h; sourceTree = "<group>"; };
+		18F9E7501F3EEABC00D417AB /* MDOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDOrder.m; sourceTree = "<group>"; };
+		18F9E7521F3EF12100D417AB /* MDGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGoods.h; sourceTree = "<group>"; };
+		18F9E7531F3EF12100D417AB /* MDGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGoods.m; sourceTree = "<group>"; };
+		18F9E75B1F3EF73800D417AB /* MDSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSearchBar.h; sourceTree = "<group>"; };
+		18F9E75C1F3EF73800D417AB /* MDSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSearchBar.m; sourceTree = "<group>"; };
+		2D57217F6DE03B4C012F8A48 /* libPods-MDMerchant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MDMerchant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C11AC5431A115429D87A7D9 /* Pods-MDMerchant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDMerchant.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDMerchant/Pods-MDMerchant.release.xcconfig"; sourceTree = "<group>"; };
+		DA8CECD849F616CF33DCC9B7 /* Pods-MDMerchant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDMerchant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDMerchant/Pods-MDMerchant.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BDCB64B1FFA09627ACC90E /* libPods-MDMerchant.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +151,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01A830C098E4923485421763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D57217F6DE03B4C012F8A48 /* libPods-MDMerchant.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1850232D1F373C9100C3470E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +166,8 @@
 				185023521F373C9100C3470E /* MDMerchantTests */,
 				1850235D1F373C9100C3470E /* MDMerchantUITests */,
 				185023371F373C9100C3470E /* Products */,
+				A9B11F35281FB6396964D4A6 /* Pods */,
+				01A830C098E4923485421763 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +184,9 @@
 		185023381F373C9100C3470E /* MDMerchant */ = {
 			isa = PBXGroup;
 			children = (
+				185023741F373F8400C3470E /* Sections */,
 				1850233C1F373C9100C3470E /* AppDelegate.h */,
 				1850233D1F373C9100C3470E /* AppDelegate.m */,
-				1850233F1F373C9100C3470E /* ViewController.h */,
-				185023401F373C9100C3470E /* ViewController.m */,
-				185023421F373C9100C3470E /* Main.storyboard */,
 				185023451F373C9100C3470E /* Assets.xcassets */,
 				185023471F373C9100C3470E /* LaunchScreen.storyboard */,
 				1850234A1F373C9100C3470E /* Info.plist */,
@@ -140,6 +221,215 @@
 			path = MDMerchantUITests;
 			sourceTree = "<group>";
 		};
+		185023741F373F8400C3470E /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				1850238F1F37580100C3470E /* MainComponent */,
+				185023881F374BC000C3470E /* Categories */,
+				185023811F37458600C3470E /* Utils */,
+				1850237F1F3743A900C3470E /* GlobalDefines */,
+				1850239A1F3810E700C3470E /* OrderWait(待处理) */,
+				185023BD1F38458200C3470E /* OrderManage(订单管理) */,
+				185023751F373F8400C3470E /* Register */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		185023751F373F8400C3470E /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				185023761F373F8400C3470E /* Controller */,
+				185023791F373F8400C3470E /* Model */,
+				1850237A1F373F8400C3470E /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		185023761F373F8400C3470E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185023771F373F8400C3470E /* MDRegisterViewController.h */,
+				185023781F373F8400C3470E /* MDRegisterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185023791F373F8400C3470E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1850237A1F373F8400C3470E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1850237C1F37433000C3470E /* MDRegisterView.h */,
+				1850237D1F37433000C3470E /* MDRegisterView.m */,
+				185023851F37473100C3470E /* MDRoundCornerTextField.h */,
+				185023861F37473100C3470E /* MDRoundCornerTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1850237F1F3743A900C3470E /* GlobalDefines */ = {
+			isa = PBXGroup;
+			children = (
+				185023801F3743C700C3470E /* MDPrefixHeader.pch */,
+			);
+			path = GlobalDefines;
+			sourceTree = "<group>";
+		};
+		185023811F37458600C3470E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				185023821F3745DB00C3470E /* MDNetworkTool.h */,
+				185023831F3745DB00C3470E /* MDNetworkTool.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		185023881F374BC000C3470E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				185023891F374C1A00C3470E /* UIView+MDAdd.h */,
+				1850238A1F374C1A00C3470E /* UIView+MDAdd.m */,
+				1850238C1F3754E100C3470E /* NSArray+MDAdd.h */,
+				1850238D1F3754E100C3470E /* NSArray+MDAdd.m */,
+				185023971F3759B900C3470E /* UIImage+MDAdd.h */,
+				185023981F3759B900C3470E /* UIImage+MDAdd.m */,
+				185023B41F3838B700C3470E /* UIButton+MDAdd.h */,
+				185023B51F3838B700C3470E /* UIButton+MDAdd.m */,
+				185023B71F3838C700C3470E /* UIBarButtonItem+MDAdd.h */,
+				185023B81F3838C700C3470E /* UIBarButtonItem+MDAdd.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1850238F1F37580100C3470E /* MainComponent */ = {
+			isa = PBXGroup;
+			children = (
+				185023A11F38119600C3470E /* View */,
+				185023901F37580100C3470E /* Controller */,
+			);
+			path = MainComponent;
+			sourceTree = "<group>";
+		};
+		185023901F37580100C3470E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185023911F37581C00C3470E /* MDTabBarController.h */,
+				185023921F37581C00C3470E /* MDTabBarController.m */,
+				185023941F3758ED00C3470E /* MDNavigationController.h */,
+				185023951F3758ED00C3470E /* MDNavigationController.m */,
+				185023B11F3836EF00C3470E /* MDBaseViewController.h */,
+				185023B21F3836EF00C3470E /* MDBaseViewController.m */,
+				185023BA1F38414F00C3470E /* MDScrollPageViewController.h */,
+				185023BB1F38414F00C3470E /* MDScrollPageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1850239A1F3810E700C3470E /* OrderWait(待处理) */ = {
+			isa = PBXGroup;
+			children = (
+				1850239B1F3810E700C3470E /* Controller */,
+				1850239C1F3810E700C3470E /* Model */,
+				1850239D1F3810E700C3470E /* View */,
+			);
+			path = "OrderWait(待处理)";
+			sourceTree = "<group>";
+		};
+		1850239B1F3810E700C3470E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1850239E1F38113100C3470E /* MDTabOneContainerViewController.h */,
+				1850239F1F38113100C3470E /* MDTabOneContainerViewController.m */,
+				185023A81F38152600C3470E /* MDNewOrderViewController.h */,
+				185023A91F38152600C3470E /* MDNewOrderViewController.m */,
+				185023AB1F3815C400C3470E /* MDRefundViewController.h */,
+				185023AC1F3815C400C3470E /* MDRefundViewController.m */,
+				185023AE1F38160900C3470E /* MDCompensateViewController.h */,
+				185023AF1F38160900C3470E /* MDCompensateViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1850239C1F3810E700C3470E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1850239D1F3810E700C3470E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185023A11F38119600C3470E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185023A51F3812B900C3470E /* MDTitleView.h */,
+				185023A61F3812B900C3470E /* MDTitleView.m */,
+				18F9E75B1F3EF73800D417AB /* MDSearchBar.h */,
+				18F9E75C1F3EF73800D417AB /* MDSearchBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185023BD1F38458200C3470E /* OrderManage(订单管理) */ = {
+			isa = PBXGroup;
+			children = (
+				185023BE1F38458200C3470E /* Controller */,
+				185023BF1F38458200C3470E /* Model */,
+				185023C01F38458200C3470E /* View */,
+			);
+			path = "OrderManage(订单管理)";
+			sourceTree = "<group>";
+		};
+		185023BE1F38458200C3470E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185023C11F3845BA00C3470E /* MDTabTwoContainerViewController.h */,
+				185023C21F3845BA00C3470E /* MDTabTwoContainerViewController.m */,
+				18ADA2001F3EE4BF00766DA0 /* MDOrderManageViewController.h */,
+				18ADA2011F3EE4BF00766DA0 /* MDOrderManageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185023BF1F38458200C3470E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18F9E74F1F3EEABC00D417AB /* MDOrder.h */,
+				18F9E7501F3EEABC00D417AB /* MDOrder.m */,
+				18F9E7521F3EF12100D417AB /* MDGoods.h */,
+				18F9E7531F3EF12100D417AB /* MDGoods.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185023C01F38458200C3470E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18F9E74C1F3EEA7200D417AB /* MDOrderManageTableCell.h */,
+				18F9E74D1F3EEA7200D417AB /* MDOrderManageTableCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A9B11F35281FB6396964D4A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA8CECD849F616CF33DCC9B7 /* Pods-MDMerchant.debug.xcconfig */,
+				5C11AC5431A115429D87A7D9 /* Pods-MDMerchant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +437,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185023631F373C9100C3470E /* Build configuration list for PBXNativeTarget "MDMerchant" */;
 			buildPhases = (
+				3B8E490D4BF889B787712E99 /* [CP] Check Pods Manifest.lock */,
 				185023321F373C9100C3470E /* Sources */,
 				185023331F373C9100C3470E /* Frameworks */,
 				185023341F373C9100C3470E /* Resources */,
+				C95C1D99AE29AA0D828847B5 /* [CP] Embed Pods Frameworks */,
+				A704A9C30B4CAC1F28CB2610 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +495,7 @@
 		1850232E1F373C9100C3470E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MD;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Wuxi Kaishang Internet";
 				TargetAttributes = {
@@ -251,7 +545,6 @@
 			files = (
 				185023491F373C9100C3470E /* LaunchScreen.storyboard in Resources */,
 				185023461F373C9100C3470E /* Assets.xcassets in Resources */,
-				185023441F373C9100C3470E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +564,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B8E490D4BF889B787712E99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A704A9C30B4CAC1F28CB2610 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDMerchant/Pods-MDMerchant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C95C1D99AE29AA0D828847B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDMerchant/Pods-MDMerchant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		185023321F373C9100C3470E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185023411F373C9100C3470E /* ViewController.m in Sources */,
+				185023871F37473100C3470E /* MDRoundCornerTextField.m in Sources */,
+				18ADA2021F3EE4BF00766DA0 /* MDOrderManageViewController.m in Sources */,
+				185023B91F3838C700C3470E /* UIBarButtonItem+MDAdd.m in Sources */,
+				1850237E1F37433000C3470E /* MDRegisterView.m in Sources */,
+				185023BC1F38414F00C3470E /* MDScrollPageViewController.m in Sources */,
+				1850237B1F373F8400C3470E /* MDRegisterViewController.m in Sources */,
+				18F9E7541F3EF12100D417AB /* MDGoods.m in Sources */,
+				185023841F3745DB00C3470E /* MDNetworkTool.m in Sources */,
+				185023B61F3838B700C3470E /* UIButton+MDAdd.m in Sources */,
+				18F9E74E1F3EEA7200D417AB /* MDOrderManageTableCell.m in Sources */,
+				185023C31F3845BA00C3470E /* MDTabTwoContainerViewController.m in Sources */,
+				185023961F3758ED00C3470E /* MDNavigationController.m in Sources */,
+				185023991F3759B900C3470E /* UIImage+MDAdd.m in Sources */,
+				185023B01F38160900C3470E /* MDCompensateViewController.m in Sources */,
 				1850233E1F373C9100C3470E /* AppDelegate.m in Sources */,
+				185023AA1F38152600C3470E /* MDNewOrderViewController.m in Sources */,
+				1850238B1F374C1A00C3470E /* UIView+MDAdd.m in Sources */,
+				185023AD1F3815C400C3470E /* MDRefundViewController.m in Sources */,
+				18F9E7511F3EEABC00D417AB /* MDOrder.m in Sources */,
+				185023A01F38113100C3470E /* MDTabOneContainerViewController.m in Sources */,
+				18F9E75D1F3EF73800D417AB /* MDSearchBar.m in Sources */,
+				185023A71F3812B900C3470E /* MDTitleView.m in Sources */,
 				1850233B1F373C9100C3470E /* main.m in Sources */,
+				185023B31F3836EF00C3470E /* MDBaseViewController.m in Sources */,
+				185023931F37581C00C3470E /* MDTabBarController.m in Sources */,
+				1850238E1F3754E100C3470E /* NSArray+MDAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +678,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		185023421F373C9100C3470E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				185023431F373C9100C3470E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		185023471F373C9100C3470E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,9 +781,12 @@
 		};
 		185023641F373C9100C3470E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8CECD849F616CF33DCC9B7 /* Pods-MDMerchant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WZM92B4X3U;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/MDApp/MDMerchant/MDMerchant/Sections/GlobalDefines/MDPrefixHeader.pch;
 				INFOPLIST_FILE = MDMerchant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.merchant.MDMerchant;
@@ -437,9 +796,12 @@
 		};
 		185023651F373C9100C3470E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C11AC5431A115429D87A7D9 /* Pods-MDMerchant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WZM92B4X3U;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/MDApp/MDMerchant/MDMerchant/Sections/GlobalDefines/MDPrefixHeader.pch;
 				INFOPLIST_FILE = MDMerchant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.merchant.MDMerchant;
@@ -516,6 +878,7 @@
 				185023651F373C9100C3470E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		185023661F373C9100C3470E /* Build configuration list for PBXNativeTarget "MDMerchantTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +887,7 @@
 				185023681F373C9100C3470E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		185023691F373C9100C3470E /* Build configuration list for PBXNativeTarget "MDMerchantUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +896,7 @@
 				1850236B1F373C9100C3470E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
