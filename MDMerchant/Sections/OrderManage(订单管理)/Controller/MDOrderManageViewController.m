@@ -7,14 +7,26 @@
 //
 
 #import "MDOrderManageViewController.h"
+#import "MDOrderManageTableCell.h"
+#import "MDTabTwoContainerViewController.h"
+#import <MJRefresh.h>
+
+static NSString *const reuseId = @"OrderCellId";
 
 @interface MDOrderManageViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) UILabel *statusLabel;
 @property (nonatomic, strong) NSMutableArray *group;
+@property (nonatomic, strong) MJRefreshNormalHeader *mj_header;
 @end
 
 @implementation MDOrderManageViewController
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    MDLogFunc
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -32,7 +44,12 @@
     _tableView.backgroundColor = MDDefaultBgColor;
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     _tableView.tableHeaderView = l;
+    [_tableView registerClass:[MDOrderManageTableCell class] forCellReuseIdentifier:reuseId];
+    _tableView.mj_header = self.mj_header;
     [self.view addSubview:_tableView];
+    
+    extern NSString *const MDOrderListDataDidReceivedNotification;
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didReceiveData:) name:MDOrderListDataDidReceivedNotification object:nil];
     
 }
 
@@ -43,11 +60,33 @@
 
 #pragma mark - <UITableViewDataSource>
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return self.group.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return [UITableViewCell new];
+    MDOrderManageTableCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseId];
+    cell.order = _group[indexPath.row];
+    cell.index = indexPath.row;
+    cell.didClickExpandButton = ^{
+        [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    };
+    return cell;
+}
+
+#pragma mark - <UITableViewDelegate>
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return ((MDOrder *)_group[indexPath.row]).layout.cell_height;
+}
+
+#pragma mark - Notification
+- (void)didReceiveData:(NSNotification *)aNote {
+    NSArray *dataArray = aNote.userInfo[@"content"];
+    [self.tableView.mj_header endRefreshing];
+    NSPredicate *predict = [NSPredicate predicateWithBlock:^BOOL(MDOrder *evaluatedObject, NSDictionary<NSString *,id> * bindings) {
+        return evaluatedObject.status == self.status;
+    }];
+    self.group = [[dataArray filteredArrayUsingPredicate:predict] mutableCopy];
+    [self refreshUI];
 }
 
 #pragma mark - Private
@@ -79,6 +118,16 @@
             break;
     }
     return navTitle;
+}
+
+- (MJRefreshNormalHeader *)mj_header {
+    if (!_mj_header) {
+        MDWS
+        _mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+            [(MDTabTwoContainerViewController *)wself.parentViewController performSelectorOnMainThread:NSSelectorFromString(@"makeData") withObject:nil waitUntilDone:YES];
+        }];
+    }
+    return _mj_header;
 }
 
 @end

@@ -119,6 +119,7 @@ static dispatch_queue_t YYTextAsyncLayerGetReleaseQueue() {
 - (void)_displayAsync:(BOOL)async {
     __strong id<YYTextAsyncLayerDelegate> delegate = (id)self.delegate;
     YYTextAsyncLayerDisplayTask *task = [delegate newAsyncDisplayTask];
+    CGFloat scale = [UIScreen mainScreen].scale;
     if (!task.display) {
         if (task.willDisplay) task.willDisplay(self);
         self.contents = nil;
@@ -135,7 +136,9 @@ static dispatch_queue_t YYTextAsyncLayerGetReleaseQueue() {
         };
         CGSize size = self.bounds.size;
         BOOL opaque = self.opaque;
-        CGFloat scale = self.contentsScale;
+        //原作者写的是scale = self.contentsScale
+        //测试时候发现有时候图片内容的self.contentsScale仅为1，在Retina屏下显示非常模糊
+        //故采用屏幕的scale作为参数
         CGColorRef backgroundColor = (opaque && self.backgroundColor) ? CGColorRetain(self.backgroundColor) : NULL;
         if (size.width < 1 || size.height < 1) {
             CGImageRef image = (__bridge_retained CGImageRef)(self.contents);

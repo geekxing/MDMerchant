@@ -55,4 +55,12 @@
                      target:(id)target
                      action:(SEL)action;
 
+/**
+ 设置倒计时
+ 
+ @param fmt1 倒计时结束显示文字
+ @param fmt2 倒计时中显示文字
+ */
+- (void)createTimerWithEndFormat:(NSString *)fmt1 schedulingFormat:(NSString *)fmt2,...;
+
 @end

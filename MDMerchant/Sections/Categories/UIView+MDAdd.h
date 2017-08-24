@@ -14,6 +14,7 @@
 - (UIViewController *)viewController;
 - (BOOL)isShowingOnKeyWindow;
 - (void)removeAllSubviews;
+- (void)restoreRootViewController:(UIViewController *)rootViewController;
 
 @property (nonatomic) CGFloat left;        ///< Shortcut for frame.origin.x.
 @property (nonatomic) CGFloat top;         ///< Shortcut for frame.origin.y

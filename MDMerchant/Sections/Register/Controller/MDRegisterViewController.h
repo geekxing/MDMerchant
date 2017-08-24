@@ -10,4 +10,6 @@
 
 @interface MDRegisterViewController : UIViewController
 
+@property (nonatomic, strong) void (^registerDidSuccess)(NSArray *textArr);
+
 @end

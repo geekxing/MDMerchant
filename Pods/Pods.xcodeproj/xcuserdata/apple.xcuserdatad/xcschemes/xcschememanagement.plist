@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LEEAlert.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,7 +67,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0107BB24D2BD6B88797C06AC97D1C1C7</key>
+		<key>0412F1993E626131EE5318D049856190</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,7 +77,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>08EF7E2F0D60D5A9B189CF64F6068EAC</key>
+		<key>103E05BEA742515692FAFA92E9583F9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D48495FE9082D05F38B317DBEFF99A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63C442A1BCA7D54FE4FD94167C3EDB1B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,22 +112,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B7CF8AEF5B6DA374C0686BBE67DB1188</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>DA78105A19A140EBF7C3FFC49D246106</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E16AAF75ACDEEE2D603757A40351A7B9</key>
+		<key>DA884BDE0F6D962E83F0D9E6A8BC3043</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F7FB468462CCFA5AF32F6F042148493F</key>
+		<key>FFFB7D940EF98C5765F0B53E90261FC0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

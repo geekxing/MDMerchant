@@ -14,7 +14,6 @@
 		185023541F373C9100C3470E /* MDMerchantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023531F373C9100C3470E /* MDMerchantTests.m */; };
 		1850235F1F373C9100C3470E /* MDMerchantUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850235E1F373C9100C3470E /* MDMerchantUITests.m */; };
 		1850237B1F373F8400C3470E /* MDRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023781F373F8400C3470E /* MDRegisterViewController.m */; };
-		1850237E1F37433000C3470E /* MDRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850237D1F37433000C3470E /* MDRegisterView.m */; };
 		185023841F3745DB00C3470E /* MDNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023831F3745DB00C3470E /* MDNetworkTool.m */; };
 		185023871F37473100C3470E /* MDRoundCornerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023861F37473100C3470E /* MDRoundCornerTextField.m */; };
 		1850238B1F374C1A00C3470E /* UIView+MDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850238A1F374C1A00C3470E /* UIView+MDAdd.m */; };
@@ -33,6 +32,16 @@
 		185023BC1F38414F00C3470E /* MDScrollPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023BB1F38414F00C3470E /* MDScrollPageViewController.m */; };
 		185023C31F3845BA00C3470E /* MDTabTwoContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185023C21F3845BA00C3470E /* MDTabTwoContainerViewController.m */; };
 		18ADA2021F3EE4BF00766DA0 /* MDOrderManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA2011F3EE4BF00766DA0 /* MDOrderManageViewController.m */; };
+		18E9B8641F49934800065EF6 /* MDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9B8631F49934800065EF6 /* MDLoginViewController.m */; };
+		18E9B8671F49937F00065EF6 /* MDOtherLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9B8661F49937F00065EF6 /* MDOtherLoginViewController.m */; };
+		18E9B86A1F49944400065EF6 /* MDRegisterBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9B8691F49944400065EF6 /* MDRegisterBaseView.m */; };
+		18E9B86D1F49DA5600065EF6 /* MDLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9B86C1F49DA5600065EF6 /* MDLoginView.m */; };
+		18E9B8701F49E4C700065EF6 /* MDSelectedListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9B86F1F49E4C700065EF6 /* MDSelectedListView.m */; };
+		18E9B8741F49E4FB00065EF6 /* MDSelectedListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9B8731F49E4FB00065EF6 /* MDSelectedListModel.m */; };
+		18E9B8781F4A7A6F00065EF6 /* MDWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9B8761F4A7A6F00065EF6 /* MDWelcomeViewController.m */; };
+		18E9B8791F4A7A6F00065EF6 /* MDWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E9B8771F4A7A6F00065EF6 /* MDWelcomeViewController.xib */; };
+		18E9B87F1F4BD8C800065EF6 /* MDSystemCallerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9B87E1F4BD8C800065EF6 /* MDSystemCallerUtil.m */; };
+		18E9B8831F4C0F5100065EF6 /* MDOrderCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9B8821F4C0F5100065EF6 /* MDOrderCellLayout.m */; };
 		18F9E74E1F3EEA7200D417AB /* MDOrderManageTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9E74D1F3EEA7200D417AB /* MDOrderManageTableCell.m */; };
 		18F9E7511F3EEABC00D417AB /* MDOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9E7501F3EEABC00D417AB /* MDOrder.m */; };
 		18F9E7541F3EF12100D417AB /* MDGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9E7531F3EF12100D417AB /* MDGoods.m */; };
@@ -73,8 +82,6 @@
 		185023601F373C9100C3470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185023771F373F8400C3470E /* MDRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRegisterViewController.h; sourceTree = "<group>"; };
 		185023781F373F8400C3470E /* MDRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRegisterViewController.m; sourceTree = "<group>"; };
-		1850237C1F37433000C3470E /* MDRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRegisterView.h; sourceTree = "<group>"; };
-		1850237D1F37433000C3470E /* MDRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRegisterView.m; sourceTree = "<group>"; };
 		185023801F3743C700C3470E /* MDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDPrefixHeader.pch; sourceTree = "<group>"; };
 		185023821F3745DB00C3470E /* MDNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDNetworkTool.h; sourceTree = "<group>"; };
 		185023831F3745DB00C3470E /* MDNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDNetworkTool.m; sourceTree = "<group>"; };
@@ -112,6 +119,25 @@
 		185023C21F3845BA00C3470E /* MDTabTwoContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTabTwoContainerViewController.m; sourceTree = "<group>"; };
 		18ADA2001F3EE4BF00766DA0 /* MDOrderManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDOrderManageViewController.h; sourceTree = "<group>"; };
 		18ADA2011F3EE4BF00766DA0 /* MDOrderManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDOrderManageViewController.m; sourceTree = "<group>"; };
+		18E9B8621F49934800065EF6 /* MDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDLoginViewController.h; sourceTree = "<group>"; };
+		18E9B8631F49934800065EF6 /* MDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDLoginViewController.m; sourceTree = "<group>"; };
+		18E9B8651F49937F00065EF6 /* MDOtherLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDOtherLoginViewController.h; sourceTree = "<group>"; };
+		18E9B8661F49937F00065EF6 /* MDOtherLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDOtherLoginViewController.m; sourceTree = "<group>"; };
+		18E9B8681F49944400065EF6 /* MDRegisterBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRegisterBaseView.h; sourceTree = "<group>"; };
+		18E9B8691F49944400065EF6 /* MDRegisterBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRegisterBaseView.m; sourceTree = "<group>"; };
+		18E9B86B1F49DA5600065EF6 /* MDLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDLoginView.h; sourceTree = "<group>"; };
+		18E9B86C1F49DA5600065EF6 /* MDLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDLoginView.m; sourceTree = "<group>"; };
+		18E9B86E1F49E4C700065EF6 /* MDSelectedListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSelectedListView.h; sourceTree = "<group>"; };
+		18E9B86F1F49E4C700065EF6 /* MDSelectedListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSelectedListView.m; sourceTree = "<group>"; };
+		18E9B8721F49E4FB00065EF6 /* MDSelectedListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSelectedListModel.h; sourceTree = "<group>"; };
+		18E9B8731F49E4FB00065EF6 /* MDSelectedListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSelectedListModel.m; sourceTree = "<group>"; };
+		18E9B8751F4A7A6F00065EF6 /* MDWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDWelcomeViewController.h; sourceTree = "<group>"; };
+		18E9B8761F4A7A6F00065EF6 /* MDWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDWelcomeViewController.m; sourceTree = "<group>"; };
+		18E9B8771F4A7A6F00065EF6 /* MDWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDWelcomeViewController.xib; sourceTree = "<group>"; };
+		18E9B87D1F4BD8C800065EF6 /* MDSystemCallerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSystemCallerUtil.h; sourceTree = "<group>"; };
+		18E9B87E1F4BD8C800065EF6 /* MDSystemCallerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSystemCallerUtil.m; sourceTree = "<group>"; };
+		18E9B8811F4C0F5100065EF6 /* MDOrderCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDOrderCellLayout.h; sourceTree = "<group>"; };
+		18E9B8821F4C0F5100065EF6 /* MDOrderCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDOrderCellLayout.m; sourceTree = "<group>"; };
 		18F9E74C1F3EEA7200D417AB /* MDOrderManageTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDOrderManageTableCell.h; sourceTree = "<group>"; };
 		18F9E74D1F3EEA7200D417AB /* MDOrderManageTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDOrderManageTableCell.m; sourceTree = "<group>"; };
 		18F9E74F1F3EEABC00D417AB /* MDOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDOrder.h; sourceTree = "<group>"; };
@@ -250,6 +276,13 @@
 			children = (
 				185023771F373F8400C3470E /* MDRegisterViewController.h */,
 				185023781F373F8400C3470E /* MDRegisterViewController.m */,
+				18E9B8621F49934800065EF6 /* MDLoginViewController.h */,
+				18E9B8631F49934800065EF6 /* MDLoginViewController.m */,
+				18E9B8651F49937F00065EF6 /* MDOtherLoginViewController.h */,
+				18E9B8661F49937F00065EF6 /* MDOtherLoginViewController.m */,
+				18E9B8751F4A7A6F00065EF6 /* MDWelcomeViewController.h */,
+				18E9B8761F4A7A6F00065EF6 /* MDWelcomeViewController.m */,
+				18E9B8771F4A7A6F00065EF6 /* MDWelcomeViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -264,10 +297,12 @@
 		1850237A1F373F8400C3470E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1850237C1F37433000C3470E /* MDRegisterView.h */,
-				1850237D1F37433000C3470E /* MDRegisterView.m */,
 				185023851F37473100C3470E /* MDRoundCornerTextField.h */,
 				185023861F37473100C3470E /* MDRoundCornerTextField.m */,
+				18E9B8681F49944400065EF6 /* MDRegisterBaseView.h */,
+				18E9B8691F49944400065EF6 /* MDRegisterBaseView.m */,
+				18E9B86B1F49DA5600065EF6 /* MDLoginView.h */,
+				18E9B86C1F49DA5600065EF6 /* MDLoginView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -285,6 +320,8 @@
 			children = (
 				185023821F3745DB00C3470E /* MDNetworkTool.h */,
 				185023831F3745DB00C3470E /* MDNetworkTool.m */,
+				18E9B87D1F4BD8C800065EF6 /* MDSystemCallerUtil.h */,
+				18E9B87E1F4BD8C800065EF6 /* MDSystemCallerUtil.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -309,6 +346,7 @@
 		1850238F1F37580100C3470E /* MainComponent */ = {
 			isa = PBXGroup;
 			children = (
+				18E9B8711F49E4E900065EF6 /* Model */,
 				185023A11F38119600C3470E /* View */,
 				185023901F37580100C3470E /* Controller */,
 			);
@@ -376,6 +414,8 @@
 				185023A61F3812B900C3470E /* MDTitleView.m */,
 				18F9E75B1F3EF73800D417AB /* MDSearchBar.h */,
 				18F9E75C1F3EF73800D417AB /* MDSearchBar.m */,
+				18E9B86E1F49E4C700065EF6 /* MDSelectedListView.h */,
+				18E9B86F1F49E4C700065EF6 /* MDSelectedListView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -383,6 +423,7 @@
 		185023BD1F38458200C3470E /* OrderManage(订单管理) */ = {
 			isa = PBXGroup;
 			children = (
+				18E9B8801F4C0F3900065EF6 /* Object */,
 				185023BE1F38458200C3470E /* Controller */,
 				185023BF1F38458200C3470E /* Model */,
 				185023C01F38458200C3470E /* View */,
@@ -419,6 +460,24 @@
 				18F9E74D1F3EEA7200D417AB /* MDOrderManageTableCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		18E9B8711F49E4E900065EF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18E9B8721F49E4FB00065EF6 /* MDSelectedListModel.h */,
+				18E9B8731F49E4FB00065EF6 /* MDSelectedListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18E9B8801F4C0F3900065EF6 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				18E9B8811F4C0F5100065EF6 /* MDOrderCellLayout.h */,
+				18E9B8821F4C0F5100065EF6 /* MDOrderCellLayout.m */,
+			);
+			path = Object;
 			sourceTree = "<group>";
 		};
 		A9B11F35281FB6396964D4A6 /* Pods */ = {
@@ -544,6 +603,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				185023491F373C9100C3470E /* LaunchScreen.storyboard in Resources */,
+				18E9B8791F4A7A6F00065EF6 /* MDWelcomeViewController.xib in Resources */,
 				185023461F373C9100C3470E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -620,21 +680,28 @@
 				185023871F37473100C3470E /* MDRoundCornerTextField.m in Sources */,
 				18ADA2021F3EE4BF00766DA0 /* MDOrderManageViewController.m in Sources */,
 				185023B91F3838C700C3470E /* UIBarButtonItem+MDAdd.m in Sources */,
-				1850237E1F37433000C3470E /* MDRegisterView.m in Sources */,
 				185023BC1F38414F00C3470E /* MDScrollPageViewController.m in Sources */,
 				1850237B1F373F8400C3470E /* MDRegisterViewController.m in Sources */,
 				18F9E7541F3EF12100D417AB /* MDGoods.m in Sources */,
+				18E9B8641F49934800065EF6 /* MDLoginViewController.m in Sources */,
+				18E9B8701F49E4C700065EF6 /* MDSelectedListView.m in Sources */,
 				185023841F3745DB00C3470E /* MDNetworkTool.m in Sources */,
 				185023B61F3838B700C3470E /* UIButton+MDAdd.m in Sources */,
+				18E9B86D1F49DA5600065EF6 /* MDLoginView.m in Sources */,
+				18E9B8671F49937F00065EF6 /* MDOtherLoginViewController.m in Sources */,
 				18F9E74E1F3EEA7200D417AB /* MDOrderManageTableCell.m in Sources */,
 				185023C31F3845BA00C3470E /* MDTabTwoContainerViewController.m in Sources */,
 				185023961F3758ED00C3470E /* MDNavigationController.m in Sources */,
+				18E9B87F1F4BD8C800065EF6 /* MDSystemCallerUtil.m in Sources */,
 				185023991F3759B900C3470E /* UIImage+MDAdd.m in Sources */,
+				18E9B8781F4A7A6F00065EF6 /* MDWelcomeViewController.m in Sources */,
 				185023B01F38160900C3470E /* MDCompensateViewController.m in Sources */,
+				18E9B86A1F49944400065EF6 /* MDRegisterBaseView.m in Sources */,
 				1850233E1F373C9100C3470E /* AppDelegate.m in Sources */,
 				185023AA1F38152600C3470E /* MDNewOrderViewController.m in Sources */,
 				1850238B1F374C1A00C3470E /* UIView+MDAdd.m in Sources */,
 				185023AD1F3815C400C3470E /* MDRefundViewController.m in Sources */,
+				18E9B8741F49E4FB00065EF6 /* MDSelectedListModel.m in Sources */,
 				18F9E7511F3EEABC00D417AB /* MDOrder.m in Sources */,
 				185023A01F38113100C3470E /* MDTabOneContainerViewController.m in Sources */,
 				18F9E75D1F3EF73800D417AB /* MDSearchBar.m in Sources */,
@@ -643,6 +710,7 @@
 				185023B31F3836EF00C3470E /* MDBaseViewController.m in Sources */,
 				185023931F37581C00C3470E /* MDTabBarController.m in Sources */,
 				1850238E1F3754E100C3470E /* NSArray+MDAdd.m in Sources */,
+				18E9B8831F4C0F5100065EF6 /* MDOrderCellLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

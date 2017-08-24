@@ -7,12 +7,7 @@
 //
 
 #import "MDBaseViewController.h"
-
-typedef enum : NSUInteger {
-    MDOrderStatusProcessing,
-    MDOrderStatusCompleted,
-    MDOrderStatusCanceled,
-} MDOrderStatus;
+#import "MDOrder.h"
 
 @interface MDOrderManageViewController : MDBaseViewController
 

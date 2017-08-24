@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MDOrder.h"
 
 @interface MDOrderManageTableCell : UITableViewCell
+
+@property (nonatomic, strong) MDOrder *order;
+@property (nonatomic, assign) NSInteger index;
+
+@property (nonatomic, strong) void (^didClickExpandButton)();
 
 @end

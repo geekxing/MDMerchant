@@ -20,6 +20,7 @@ PODS:
     - FMDB/standard (= 2.7.2)
   - FMDB/standard (2.7.2)
   - IQKeyboardManager (4.0.11)
+  - LEEAlert (1.1.0)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.12)
   - RealReachability (1.1.9):
@@ -39,6 +40,7 @@ DEPENDENCIES:
   - FHHFPSIndicator
   - FMDB
   - IQKeyboardManager
+  - LEEAlert
   - MJExtension
   - MJRefresh
   - RealReachability
@@ -52,6 +54,7 @@ SPEC CHECKSUMS:
   FHHFPSIndicator: b4d34c3a93b702ad18358a4eb49839f83f4f30fb
   FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
   IQKeyboardManager: 83eae5318483a34eb2069ef413d195b97605232e
+  LEEAlert: a51d666189ec457b9c483bc43179fb8c2cae7109
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   RealReachability: a8c483900986a0f3305733961effbfbb00637a02
@@ -59,6 +62,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 16a499efbd99d5292e482dd32159ad3361cfd86f
+PODFILE CHECKSUM: c0580f7bc96ea424bd0182c8d220d445af2b9545
 
 COCOAPODS: 1.2.1

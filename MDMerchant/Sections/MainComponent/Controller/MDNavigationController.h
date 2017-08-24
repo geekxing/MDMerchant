@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum : NSUInteger {
+    MDNavigationStyleRegister,
+    MDNavigationStyleHomePage
+} MDNavigationStyle;
+
 @interface MDNavigationController : UINavigationController
+
+@property (nonatomic, assign) MDNavigationStyle naviStyle;
 
 @end

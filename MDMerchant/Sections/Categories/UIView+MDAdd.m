@@ -46,6 +46,26 @@
     }
 }
 
+- (void)restoreRootViewController:(UIViewController *)rootViewController
+{
+    typedef void (^Animation)(void);
+    
+    rootViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    Animation animation = ^{
+        BOOL oldState = [UIView areAnimationsEnabled];
+        [UIView setAnimationsEnabled:NO];
+        [UIApplication sharedApplication].keyWindow.rootViewController = rootViewController;
+        [UIView setAnimationsEnabled:oldState];
+    };
+    
+    [UIView transitionWithView:self
+                      duration:0.5f
+                       options:UIViewAnimationOptionTransitionCrossDissolve
+                    animations:animation
+                    completion:nil];
+}
+
+
 - (CGFloat)left {
     return self.frame.origin.x;
 }

@@ -16,6 +16,7 @@
 #import "MDSearchBar.h"
 #import "UIBarButtonItem+MDAdd.h"
 #import <UIImageView+WebCache.h>
+#import <MJExtension.h>
 #import <SVProgressHUD.h>
 
 
@@ -33,11 +34,9 @@
 #define UIHeightRatio(h) roundf((h)/736.f*SCREEN_HEIGHT)
 #define UIScreenSize CGSizeMake(SCREEN_WIDTH,SCREEN_HEIGHT)
 
-#ifndef kSystemVersion
-#define kSystemVersion [UIDevice systemVersion]
-#endif
+#define kSystemVersion [[UIDevice currentDevice] systemVersion].floatValue
 
-#define XSX_KEYWINDOW [UIApplication sharedApplication].keyWindow
+#define MD_KEYWINDOW [UIApplication sharedApplication].keyWindow
 
 /*** UI宏 */
 #define UIFontMakeS(f) [UIFont systemFontOfSize:(f)]
@@ -68,10 +67,13 @@ alpha:alphaValue]
 
 /***日志***/
 #ifdef DEBUG
-#define MDXLog(...) NSLog(__VA_ARGS__)
+#define MDLog(...) NSLog(__VA_ARGS__)
 #else
-#define MDXLog(...)
+#define MDLog(...)
 
 #endif
+
+/*** 打印方法调用 */
+#define MDLogFunc MDLog(@"%s",__func__);
 
 #endif /* MDPrefixHeader_pch */

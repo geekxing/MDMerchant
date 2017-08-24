@@ -11,6 +11,7 @@
 @interface MDGoods : NSObject
 
 @property (nonatomic, copy) NSString *goods_name;
-@property (nonatomic, copy) NSString *goods_number;
+@property (nonatomic, copy) NSString *money_need;
+@property (nonatomic, assign) NSInteger goods_number;
 
 @end

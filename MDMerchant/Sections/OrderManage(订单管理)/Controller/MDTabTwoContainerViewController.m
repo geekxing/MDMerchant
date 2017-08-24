@@ -9,9 +9,12 @@
 #import "MDTabTwoContainerViewController.h"
 #import "MDOrderManageViewController.h"
 
+NSString *const MDOrderListDataDidReceivedNotification = @"MDOrderListDataDidReceivedNotification";
+
 @interface MDTabTwoContainerViewController ()
 @property (nonatomic, strong) MDSearchBar *searchBar;
 @property (nonatomic, strong) UIButton *preOrderButton;
+@property (nonatomic, strong) NSMutableArray *dataArray;
 @end
 
 @implementation MDTabTwoContainerViewController
@@ -20,6 +23,7 @@
     [super viewDidLoad];
     [self setupPreOrderButton];
     [self setupSearchBar];
+    [self makeData];
 }
 
 - (void)viewDidLayoutSubviews {
@@ -52,6 +56,23 @@
     self.navigationItem.titleView = searchContainer;
 }
 
+- (void)makeData {
+    [[MDNetworkTool shared].tasks makeObjectsPerformSelector:@selector(cancel)];
+    MDWS
+    [MDNetworkTool postWithParams:@{Param_Id:@"18261536730"} url:@"order_list_get_2/" successCode:200 completeHanlder:^(id response, NSError *err) {
+        if (!err) {
+            MDLog(@"%@",response);
+            wself.dataArray = [MDOrder mj_objectArrayWithKeyValuesArray:response[RQCONTENT]];
+            [wself.dataArray makeObjectsPerformSelector:@selector(calcModelAndLayout)];
+        } else {
+            if (err.code == NSURLErrorCancelled) { /*取消了任务*/ }
+            else [SVProgressHUD showErrorWithStatus:err.localizedDescription];
+        }
+        NSDictionary *userInfo = [NSDictionary dictionaryWithObjectsAndKeys:wself.dataArray,@"content",err,@"err", nil];
+        [[NSNotificationCenter defaultCenter] postNotificationName:MDOrderListDataDidReceivedNotification object:nil userInfo:userInfo];
+    }];
+}
+
 #pragma mark - Action
 - (void)tapPreOrder:(UIButton *)btn {
     
@@ -70,6 +91,13 @@
         _vcList = vcList;
     }
     return _vcList;
+}
+
+- (NSMutableArray *)dataArray {
+    if (!_dataArray) {
+        _dataArray = [NSMutableArray array];
+    }
+    return _dataArray;
 }
 
 @end

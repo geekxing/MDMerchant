@@ -12,6 +12,7 @@ pod 'FMDB'
 pod 'MJRefresh'
 pod 'FHHFPSIndicator'
 pod 'IQKeyboardManager'
+pod 'LEEAlert'
 pod 'Bugly'
 
 end
